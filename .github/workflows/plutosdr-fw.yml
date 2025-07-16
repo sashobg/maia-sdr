@@ -19,7 +19,7 @@ jobs:
     - name: Checkout plutosdr-fw
       uses: actions/checkout@v4
       with:
-        repository: maia-sdr/plutosdr-fw
+        repository: sashobg/plutosdr-fw
         submodules: recursive
     - name: Remove maia-sdr submodule
       run: rm -rf maia-sdr
